@@ -6,7 +6,7 @@
 
 <Pane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="448.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.calculatorUIController">
    <children>
-      <TextField fx:id="txtField" alignment="CENTER_RIGHT" editable="false" onAction="#txtFieldInput" prefHeight="102.0" prefWidth="320.0" promptText="0" stylesheets="@UI.css" />
+      <TextField fx:id="txtField" alignment="CENTER_RIGHT" onAction="#txtFieldInput" prefHeight="102.0" prefWidth="320.0" promptText="0" style="-fx-text-fill: white; -fx-font-size: 30pt; -fx-font-family: Arial;" stylesheets="@UI.css" />
       <Button fx:id="clearBtn" layoutY="102.0" mnemonicParsing="false" onAction="#clearBtnPressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="C" />
       <Button fx:id="neg_posBtn" layoutX="80.0" layoutY="102.0" mnemonicParsing="false" onAction="#neg_posBtnPressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="+/-" />
       <Button fx:id="percentBtn" layoutX="160.0" layoutY="102.0" mnemonicParsing="false" onAction="#percentBtnPressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="\%" />

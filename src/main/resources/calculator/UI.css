@@ -1,8 +1,5 @@
 .text-field {
-    -fx-font: 20pt "Arial";
     -fx-background-color: rgb(76,76,76)
-    
-
 }
 .button {
     -fx-border-width: 0.5px;
@@ -19,8 +16,4 @@
 
 #right_side_btn:pressed {
     -fx-background-color: rgb(203,112,48)
-}
-
-.root {
-    -fx-font: large;
 }
