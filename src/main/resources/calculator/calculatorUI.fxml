@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="448.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.calculatorUIController">
+   <children>
+      <TextField fx:id="txtField" alignment="CENTER_RIGHT" editable="false" onAction="#txtFieldInput" prefHeight="102.0" prefWidth="320.0" promptText="0" stylesheets="@UI.css" />
+      <Button fx:id="clearBtn" layoutY="102.0" mnemonicParsing="false" onAction="#clearBtnPressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="C" />
+      <Button fx:id="neg_posBtn" layoutX="80.0" layoutY="102.0" mnemonicParsing="false" onAction="#neg_posBtnPressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="+/-" />
+      <Button fx:id="percentBtn" layoutX="160.0" layoutY="102.0" mnemonicParsing="false" onAction="#percentBtnPressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="\%" />
+      <Button id="right_side_btn" fx:id="divideBtn" layoutX="240.0" layoutY="102.0" mnemonicParsing="false" onAction="#divideBtnPressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="/" />
+      <Button fx:id="btn7" layoutY="168.0" mnemonicParsing="false" onAction="#btn7Pressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="7" />
+      <Button fx:id="btn8" layoutX="80.0" layoutY="168.0" mnemonicParsing="false" onAction="#btn8Pressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="8" />
+      <Button fx:id="btn9" layoutX="160.0" layoutY="168.0" mnemonicParsing="false" onAction="#btn9Pressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="9" />
+      <Button id="right_side_btn" fx:id="multiplyBtn" layoutX="240.0" layoutY="168.0" mnemonicParsing="false" onAction="#multiplyBtnPressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="X" />
+      <Button fx:id="btn4" layoutY="238.0" mnemonicParsing="false" onAction="#btn4Pressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="4" />
+      <Button fx:id="btn5" layoutX="80.0" layoutY="238.0" mnemonicParsing="false" onAction="#btn5Pressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="5" />
+      <Button fx:id="btn6" layoutX="160.0" layoutY="238.0" mnemonicParsing="false" onAction="#btn6Pressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="6" />
+      <Button id="right_side_btn" fx:id="minusBtn" layoutX="240.0" layoutY="238.0" mnemonicParsing="false" onAction="#minusBtnPressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="-" />
+      <Button id="right_side_btn" fx:id="addBtn" layoutX="240.0" layoutY="308.0" mnemonicParsing="false" onAction="#addBtnPressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="+" />
+      <Button fx:id="btn3" layoutX="160.0" layoutY="308.0" mnemonicParsing="false" onAction="#btn3Pressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="3" />
+      <Button fx:id="btn2" layoutX="80.0" layoutY="308.0" mnemonicParsing="false" onAction="#btn2Pressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="2" />
+      <Button fx:id="btn1" layoutY="308.0" mnemonicParsing="false" onAction="#btn1Pressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="1" />
+      <Button fx:id="btn0" layoutY="378.0" mnemonicParsing="false" onAction="#btn0Pressed" prefHeight="70.0" prefWidth="161.0" stylesheets="@UI.css" text="0" />
+      <Button fx:id="periodBtn" layoutX="160.0" layoutY="378.0" mnemonicParsing="false" onAction="#periodBtnPressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="." />
+      <Button id="right_side_btn" fx:id="answerBtn" layoutX="240.0" layoutY="378.0" mnemonicParsing="false" onAction="#answerBtnPressed" prefHeight="70.0" prefWidth="80.0" stylesheets="@UI.css" text="=" />
+   </children>
+</Pane>
