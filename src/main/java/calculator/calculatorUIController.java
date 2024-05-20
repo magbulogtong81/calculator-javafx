@@ -88,7 +88,6 @@ public class calculatorUIController{
     void answerBtnPressed(ActionEvent event) {
         if (txtField.getText() != ""){
             secondNumber = Double.valueOf(txtField.getText());
-            operator = "+";
              txtField.setText(String.valueOf(getAnswer(operator, firstNumber, secondNumber)));
         }
 
@@ -243,20 +242,15 @@ public class calculatorUIController{
         double answer = 0;
         switch (op) {
             case "+":
-                answer = firstN + secondN;
-                break;
+                answer = firstN + secondN; break;
             case "-":
-                answer = firstN - secondN;
-                break;
+                answer = firstN - secondN; break;
             case "/":
-                answer = firstN / secondN;
-                break;
+                answer = firstN / secondN; break;
             case "*":
-                answer = firstN * secondN;
-                break;
+                answer = firstN * secondN; break;
             case "%":
-                answer = firstN % secondN;
-                break;
+                answer = firstN % secondN; break;
 
         }
         return answer;
